@@ -88,6 +88,7 @@
 
 .getCurlHandle <- function(apikey){
     h <- curl::new_handle()
+    curl::handle_setopt(h, .list=list(ssl_verifypeer = 0))
     curl::handle_setheaders(h, .list=list('Access-Token' = apikey))
     return(h)
 }
