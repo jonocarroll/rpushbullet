@@ -1,3 +1,5 @@
+### THIS IS MY INSECURE FORK OF RPPushbullet -- IT DISABLES SSL_PEERVERIFY BECAUSE MY WORK DOES SOMETHING FUNKY WITH THEIR CA CERTS AND I AM ONLY USING THIS FOR NOTIFICATIONS. DO NOT USE FOR SECURE CONTENT!
+
 ## RPushbullet [![Build Status](https://travis-ci.org/eddelbuettel/rpushbullet.svg)](https://travis-ci.org/eddelbuettel/rpushbullet) [![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) [![CRAN](http://www.r-pkg.org/badges/version/RPushbullet)](https://cran.r-project.org/package=RPushbullet) [![Downloads](http://cranlogs.r-pkg.org/badges/RPushbullet?color=brightgreen)](http://www.r-pkg.org/pkg/RPushbullet) [![Code Coverage](https://codecov.io/gh/eddelbuettel/rpushbullet/graph/badge.svg)](https://codecov.io/gh/eddelbuettel/rpushbullet)
 
 ### R interface to Pushbullet
